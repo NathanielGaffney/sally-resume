@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import sally from './images/sally-contact.jpg';
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
             <p>My name is Sally</p>
             <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
             <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
-            <img src="images/sally-contact.jpg" alt="image of sally"/>
+            <img src={sally} alt="image of sally"/>
         </address>
     </section>
   </main>
